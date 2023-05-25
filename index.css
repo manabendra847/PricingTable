@@ -1,0 +1,51 @@
+body {
+    font-family: 'Sono', sans-serif;
+    font-weight: bold;
+  }
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    flex-wrap: wrap;
+}
+.section{
+    background-color: rgba(247, 245, 237, 0.785);
+    text-align: center;
+    margin: 18px;
+    padding: 16px;
+    border-radius: 10px;
+}
+.section h1{
+    font-size: 45px;
+    margin-top: 0;
+}
+h2{
+    margin-bottom: 0;
+}
+.section li{
+    font-weight: lighter;
+    font-size: medium;
+    font-family:'Courier New', Courier, monospace
+}
+button{
+    background-color: rgb(242, 90, 39);
+    border-radius: 6px;
+    border-color: rgba(253, 250, 240, 0.925);
+    color: aliceblue;
+    padding: 8px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(249, 118, 74);
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+@media screen and (max-width: 375px) {
+    .section h1{
+        font-size: 26px;
+    }
+}
